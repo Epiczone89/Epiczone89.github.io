@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Global
+    <title>Interface ISubject&lt;T&gt;
    | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Global
+    <meta name="title" content="Interface ISubject&lt;T&gt;
    | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,79 +78,128 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global">
+            <article class="content wrap" id="_content" data-uid="Global.ISubject`1">
   
-  <h1 id="Global" data-uid="Global" class="text-break">Namespace Global
+  
+  <h1 id="Global_ISubject_1" data-uid="Global.ISubject`1" class="text-break">Interface ISubject&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Interface that is used to attach or detach an observer to a subject and notify said observers about an event.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Global_ISubject_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISubject&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="Global.AiUnit.html">AiUnit</a></h4>
-      <section><p>AiUnit class that inherits from Unit class. Currently used to give moving units destinations to navigate towards.</p>
-</section>
-      <h4><a class="xref" href="Global.ApplicationController.html">ApplicationController</a></h4>
-      <section><p>ApplicationController is a singleton that lets the player control the game through UI and keeps track of player currency. Inherits from SingletonMono.</p>
-</section>
-      <h4><a class="xref" href="Global.BuildingSpecsSO.html">BuildingSpecsSO</a></h4>
-      <section><p>This class builds buildings</p>
-</section>
-      <h4><a class="xref" href="Global.BuildingUnit.html">BuildingUnit</a></h4>
-      <section><p>BuildingUnit class that inherits from Unit class. Can be used to expand building unit functionality. Unfinished.</p>
-</section>
-      <h4><a class="xref" href="Global.CameraController.html">CameraController</a></h4>
-      <section><p>CameraController class is used to handle camera controls. It will handle camera movement and define restrictions for the camera.</p>
-</section>
-      <h4><a class="xref" href="Global.NewUnitButton.html">NewUnitButton</a></h4>
-      <section><p>class of unitbuttons with the UI buttons and added variables</p>
-</section>
-      <h4><a class="xref" href="Global.ReactiveObserver-1.html">ReactiveObserver&lt;T&gt;</a></h4>
-      <section><p>ReactiveObserver implements the IObserver interface</p>
-</section>
-      <h4><a class="xref" href="Global.ReactiveProperty-1.html">ReactiveProperty&lt;T&gt;</a></h4>
-      <section><p>ReactiveObserver implements the ISubject interface and handles changing subject states</p>
-</section>
-      <h4><a class="xref" href="Global.Singleton-1.html">Singleton&lt;T&gt;</a></h4>
-      <section><p>@ Jesse Rinneranta</p>
-</section>
-      <h4><a class="xref" href="Global.SingletonMono-1.html">SingletonMono&lt;T&gt;</a></h4>
-      <section><p>Makes an instance for general singletonMono</p>
-</section>
-      <h4><a class="xref" href="Global.UIButton.html">UIButton</a></h4>
-      <section><p>Script component that is going to be added to every button in the UI World</p>
-</section>
-      <h4><a class="xref" href="Global.UIController.html">UIController</a></h4>
-      <section><p>UI Contoller for controlling the whole UI system in the Game</p>
-</section>
-      <h4><a class="xref" href="Global.Unit.html">Unit</a></h4>
-      <section><p>Abstract class that handles unit rendering and their specs</p>
-</section>
-      <h4><a class="xref" href="Global.UnitBuildCommand.html">UnitBuildCommand</a></h4>
-      <section><p>UnitBuildCOmmand implements the ICommand interface to build units or destroy them.</p>
-</section>
-      <h4><a class="xref" href="Global.UnitController.html">UnitController</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Global.UnitFactory-1.html">UnitFactory&lt;UnitT&gt;</a></h4>
-      <section><p>UnitFactory class that handles instantiating units. Differentiates between AiUnits and BuildingUnits.</p>
-</section>
-      <h4><a class="xref" href="Global.UnitSpecsSO.html">UnitSpecsSO</a></h4>
-      <section><p>Scriptable object that houses building specs</p>
-</section>
-    <h3 id="interfaces">Interfaces
+  
+  
+  <a id="Global_ISubject_1_Value_" data-uid="Global.ISubject`1.Value*"></a>
+  <h4 id="Global_ISubject_1_Value" data-uid="Global.ISubject`1.Value">Value</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="Global.ICommand.html">ICommand</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Global.IObserver-1.html">IObserver&lt;T&gt;</a></h4>
-      <section><p>Interface that is used to receive updates from subjects</p>
-</section>
-      <h4><a class="xref" href="Global.ISubject-1.html">ISubject&lt;T&gt;</a></h4>
-      <section><p>Interface that is used to attach or detach an observer to a subject and notify said observers about an event.</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="Global.NewUnitButton.UnitType.html">NewUnitButton.UnitType</a></h4>
-      <section></section>
+  
+  
+  <a id="Global_ISubject_1_Attach_" data-uid="Global.ISubject`1.Attach*"></a>
+  <h4 id="Global_ISubject_1_Attach_IObserver__0__" data-uid="Global.ISubject`1.Attach(IObserver{`0})">Attach(IObserver&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Attach(IObserver&lt;T&gt; observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.IObserver-1.html">IObserver</a>&lt;T&gt;</td>
+        <td><span class="parametername">observer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_ISubject_1_Detach_" data-uid="Global.ISubject`1.Detach*"></a>
+  <h4 id="Global_ISubject_1_Detach_IObserver__0__" data-uid="Global.ISubject`1.Detach(IObserver{`0})">Detach(IObserver&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Detach(IObserver&lt;T&gt; observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.IObserver-1.html">IObserver</a>&lt;T&gt;</td>
+        <td><span class="parametername">observer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_ISubject_1_Notify_" data-uid="Global.ISubject`1.Notify*"></a>
+  <h4 id="Global_ISubject_1_Notify" data-uid="Global.ISubject`1.Notify">Notify()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Notify()</code></pre>
+  </div>
 </article>
           </div>
           

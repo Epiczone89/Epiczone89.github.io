@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class UIController
+    <title>Class BuildingSpecsSO
    | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class UIController
+    <meta name="title" content="Class BuildingSpecsSO
    | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,37 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.UIController">
+            <article class="content wrap" id="_content" data-uid="Global.BuildingSpecsSO">
   
   
-  <h1 id="Global_UIController" data-uid="Global.UIController" class="text-break">Class UIController
+  <h1 id="Global_BuildingSpecsSO" data-uid="Global.BuildingSpecsSO" class="text-break">Class BuildingSpecsSO
   </h1>
-  <div class="markdown level0 summary"><p>UI Contoller for controlling the whole UI system in the Game</p>
+  <div class="markdown level0 summary"><p>This class builds buildings</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">UIController</span></div>
+    <div class="level1"><span class="xref">BuildingSpecsSO</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_UIController_syntax">Syntax</h5>
+  <h5 id="Global_BuildingSpecsSO_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UIController : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class BuildingSpecsSO : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Global_UIController_ButtonUndo" data-uid="Global.UIController.ButtonUndo">ButtonUndo</h4>
+  <a id="Global_BuildingSpecsSO_Cost_" data-uid="Global.BuildingSpecsSO.Cost*"></a>
+  <h4 id="Global_BuildingSpecsSO_Cost" data-uid="Global.BuildingSpecsSO.Cost">Cost</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Button ButtonUndo</code></pre>
+    <pre><code class="lang-csharp hljs">public int Cost { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,22 +119,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Button</span></td>
-        <td><p>UI Button for Undoing last task</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_UIController_NewUnitButtonsContainer" data-uid="Global.UIController.NewUnitButtonsContainer">NewUnitButtonsContainer</h4>
+  <a id="Global_BuildingSpecsSO_Health_" data-uid="Global.BuildingSpecsSO.Health*"></a>
+  <h4 id="Global_BuildingSpecsSO_Health" data-uid="Global.BuildingSpecsSO.Health">Health</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RectTransform NewUnitButtonsContainer</code></pre>
+    <pre><code class="lang-csharp hljs">public float Health { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -143,22 +144,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RectTransform</span></td>
-        <td><p>Position for newbutton container</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_UIController_SelectionRectangle" data-uid="Global.UIController.SelectionRectangle">SelectionRectangle</h4>
+  <a id="Global_BuildingSpecsSO_Material_" data-uid="Global.BuildingSpecsSO.Material*"></a>
+  <h4 id="Global_BuildingSpecsSO_Material" data-uid="Global.BuildingSpecsSO.Material">Material</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RectTransform SelectionRectangle</code></pre>
+    <pre><code class="lang-csharp hljs">public Material Material { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -168,22 +169,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RectTransform</span></td>
-        <td><p>Position fo the selectionrectangle</p>
-</td>
+        <td><span class="xref">Material</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_UIController_TextSpiceAmount" data-uid="Global.UIController.TextSpiceAmount">TextSpiceAmount</h4>
+  <a id="Global_BuildingSpecsSO_MaterialSelected_" data-uid="Global.BuildingSpecsSO.MaterialSelected*"></a>
+  <h4 id="Global_BuildingSpecsSO_MaterialSelected" data-uid="Global.BuildingSpecsSO.MaterialSelected">MaterialSelected</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Text TextSpiceAmount</code></pre>
+    <pre><code class="lang-csharp hljs">public Material MaterialSelected { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -193,25 +194,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Text</span></td>
-        <td><p>TextComponent for telling how much currency you have</p>
-</td>
+        <td><span class="xref">Material</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_UIController_Init_" data-uid="Global.UIController.Init*"></a>
-  <h4 id="Global_UIController_Init" data-uid="Global.UIController.Init">Init()</h4>
-  <div class="markdown level1 summary"><p>initializer for the gameobject variables or their components</p>
-</div>
+  <a id="Global_BuildingSpecsSO_Name_" data-uid="Global.BuildingSpecsSO.Name*"></a>
+  <h4 id="Global_BuildingSpecsSO_Name" data-uid="Global.BuildingSpecsSO.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_BuildingSpecsSO_Speed_" data-uid="Global.BuildingSpecsSO.Speed*"></a>
+  <h4 id="Global_BuildingSpecsSO_Speed" data-uid="Global.BuildingSpecsSO.Speed">Speed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

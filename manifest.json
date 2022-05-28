@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "I:/EPO_LINQ_XMLdoc/Documentation",
+  "source_base_path": "C:/Users/jerin/Desktop/Edistynyt_Peliohjelmointi/fifth Pattern/EPO_design_patterns/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -24,11 +24,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Character.yml",
+      "source_relative_path": "api/Global.AiUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Character.html",
-          "hash": "J+RFwnHNC9NIpVhBaiu2A7Wlqm17n96tUGHGMWNuDy0="
+          "relative_path": "api/Global.AiUnit.html",
+          "hash": "1jXQvuk5X8lrWV5Q0DGux5h16X5TWLtUvnCQpHrYrIo="
         }
       },
       "is_incremental": false,
@@ -36,11 +36,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Enemy.yml",
+      "source_relative_path": "api/Global.ApplicationController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Enemy.html",
-          "hash": "GgvIDBJnxYKXyzP45WqJss9XDfTMclltwcHUwGJlxpg="
+          "relative_path": "api/Global.ApplicationController.html",
+          "hash": "bmCJ8k6kuh48EZqlFv7wQJ2Tza7HklclRNLp+1ZosKE="
         }
       },
       "is_incremental": false,
@@ -48,11 +48,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Player.yml",
+      "source_relative_path": "api/Global.BuildingSpecsSO.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Player.html",
-          "hash": "//nrKzJoZ7ndZXGDqa0BivfqWTcod2QjMUvgzEfxrQ0="
+          "relative_path": "api/Global.BuildingSpecsSO.html",
+          "hash": "BuX5d2RwQzKJ5HylnSLasSyWyja3PREFvcldeM3PngE="
         }
       },
       "is_incremental": false,
@@ -60,11 +60,143 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.PlayerCharacterCard.yml",
+      "source_relative_path": "api/Global.BuildingUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.PlayerCharacterCard.html",
-          "hash": "gDUF/exRp7ko57SIXtBKjp6931jnYNmF9+apLiTv6II="
+          "relative_path": "api/Global.BuildingUnit.html",
+          "hash": "yVfR722qqFRqIEtq4jVj8i0/JPoIu/wlgSvtaFV0l80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CameraController.html",
+          "hash": "8ehX/O/Du/IYjtXKpBlwsP6GxfkSVxV0mRe07XzqiUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ICommand.html",
+          "hash": "RDhe94HMfgnD8JIZWwuJAbFM55G8OaguU2be2kqWBOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IObserver-1.html",
+          "hash": "Z9tH5vXv3gch7Dd4eOXOxIF6S2XXbP5v+ij5CEvB6sM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISubject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISubject-1.html",
+          "hash": "LFDP290eSAB2LqRllaa7Y5RhFXPk/yux374UAkCRQmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NewUnitButton.UnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NewUnitButton.UnitType.html",
+          "hash": "3ZHlZONGx9SglizrwN21CjMkED7jQfxrpKtJ/ohsFiw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NewUnitButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NewUnitButton.html",
+          "hash": "J+jJgNkG/xmFaAqWvzYDMfBSxlfMChE1Ofnnn1IT8s0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ReactiveObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ReactiveObserver-1.html",
+          "hash": "UaTRxnsSX6/IZQgOv96UmPot8QPD1/QuQuRxJzJ3mfs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ReactiveProperty-1.html",
+          "hash": "kqvw1TYeLyH2oO6Zj3C+5wUcXKAErVeQTRZrXT0MYs0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Singleton-1.html",
+          "hash": "w8vPxWI69wCnUb3Ds65wq69QaiutBTf+lsIS7Z1LpIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SingletonMono-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SingletonMono-1.html",
+          "hash": "pPW+rE7Nx9zXSjbocJfLzeE/JofUE8mtvXzP41y6Q8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIButton.html",
+          "hash": "ekSBt68mxnvABgb0bs67fgTvZbO1OaSMZCBK37Pb1pM="
         }
       },
       "is_incremental": false,
@@ -76,7 +208,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UIController.html",
-          "hash": "1EfZBsjhsCTKn3OMDXUz0ooQDcepqSAW5dwqh+vRcRU="
+          "hash": "pCU86IZpbsNdu61EL18aw12ILj0/okEShZDADlDxnZg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Unit.html",
+          "hash": "diWtsrXcbmsD9VEOa702AOeMxIQtT8y4/UKu6HSKE7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitBuildCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitBuildCommand.html",
+          "hash": "aDcUnnDWnZ9o8adMWTqXXtAnDb67rln4wap4okW/FLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitController.html",
+          "hash": "9PRAyIN9pX9986BEQIm0/CR5ytHZpn04rlGg7xK2WGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitFactory-1.html",
+          "hash": "7+4ee2YkhrMOzRN0669R+5dmfdB4jvZ2rMjn9NagpRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitSpecsSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitSpecsSO.html",
+          "hash": "yR6uccBissslKgEA9kZAZxUfj253WfgZZgc+47xqtmA="
         }
       },
       "is_incremental": false,
@@ -88,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "G7A+A7oYZ2Q01fpgRgKnwOaOMKWktYBAXlkLtNqvasc="
+          "hash": "yycZ6iTmHpEsEczscddAZxSln72/YmA2tIBK5kFE434="
         }
       },
       "is_incremental": false,
@@ -100,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "W1raV4vmxSrnWb/FAjNqkvTGpyLPqEwhyoeeouEGhAs="
+          "hash": "bhSXwjqv4i9qnoJtqhKZjqv76ZtzfaSxOC6wOeY8a3I="
         }
       },
       "is_incremental": false,
@@ -112,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "LEplu2hLJYMBkScZNYKN0Qiq0Z51uH5lJ8BzbtUheQo="
+          "hash": "gOJGHunD4TVNnabhYvyUdU9T0NB60BFz/sEmNu5OQHg="
         }
       },
       "is_incremental": false,
@@ -124,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "8Cn65ioBxnKiZcxWYWQ0bfKrC0JOXUC7RPRGGW4F34s="
+          "hash": "MwTmJk0X9LO7280fgy3z0MdD9TlHZyhZ0LY2uPku6d8="
         }
       },
       "is_incremental": false,
@@ -195,8 +387,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 6
+          "total_file_count": 22,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
