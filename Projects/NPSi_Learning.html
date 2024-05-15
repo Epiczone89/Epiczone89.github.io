@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NPSI Learning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio page of Jesse Rinneranta">
+        <link rel="stylesheet" href="../Styles/Base_Page.css">
+        <link rel="stylesheet" href="../Styles/Raport.css">
+        <link rel="stylesheet" href="../Styles/Slideshow.css">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="../index.html" class="btn">Main Page</a></li>
+                <li><a href="../Projects/Volunteering.html" class="btn">Volunteering</a></li>
+                <li><p><b>Projects:</b></p></li>
+                <li><a href="../Projects/FGJ24.html"class="btn">FGJ24</a></li>
+                <li><a href="../Projects/NPSi_Learning.html" class="btn">NPSI Learning</a></li>
+                <li><a href="../Projects/FGJ23.html" class="btn">FGJ23</a></li>
+                <li><a href="../Projects/Summer2022.html" class="btn">XGS 22</a></li>
+                <li><a href="../Projects/PrideJam.html" class="btn">PrideJam22</a></li>
+                <li><a href="../Projects/JamJam.html" class="btn">Jam Jam22</a></li>
+                <li><a href="../Projects/XGJ2021.html" class="btn">XGJ 21</a></li>
+            </div>
+            <div class="wrapper">
+                <div class="sidenavbutton">
+                    <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+                <div class="info">
+                    <div class="intro-text">
+                        <p>NPSI Learning</p>
+                    </div>
+                    <div class="info-text">
+                        <p>
+                            <b>1. Description</b>
+                        </p>
+                        <p>
+                            NPSi learning is used in NPS Inspection Oy internal orientation. 
+                            It contains companys guidelines and instructions.
+                        </p>
+                        <p>
+                            I began my training by enrolling in Helsinki University's open FullStack course. 
+                            In the early stages of my training, 
+                            I spent a few weeks exploring and testing various technologies and implementation methods for the project. 
+                            In May, I also designed the application's appearance and functionality and presented them to my supervisor. 
+                            When I received approval for the application's appearance from my supervisor, 
+                            I began working on the HTML and CSS foundation of the application.
+                        </p>
+                        <p>
+                            We added workplace-specific guidelines as well as national and international standards to the application, 
+                            along with related exams. 
+                            Each user's completed exams and their scores are also recorded, 
+                            with only the highest score being saved for each exam.
+                        </p>
+                        <p>
+                            <b>2. Description of functions</b>
+                        </p>
+                        <p>
+                            The application uses MongoDB as its database and utilizes HTML, CSS, JavaScript, and Node.js. 
+                            On the backend, I coded the server and the User schema, which contains user login information and exam scores. 
+                            Backend development was entirely new to me, and it was fascinating to explore how MongoDB works. 
+                            On the frontend, I converted several hundred pages of internal workplace documents into HTML format. 
+                            When working on the frontend, I encountered new concepts such as integrating JavaScript into HTML code and creating tables.
+                        </p>
+                        <p>
+                            NPSi learning contains user authentication, user levels, exams and exam score saving in user. 
+                            I used MongoDB to handle the database. 
+                        </p>
+                        <p>
+                            Most of my time went with frontend coding. 
+                            I moved few hundred pages of documentation in HTML format. 
+                            So almost whole summer went with HTML coding.
+                        </p>
+                        <p>
+                            <b>4. Screenshots</b>
+                        </p>
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 4</div>
+                                <img src="../Images/NPSi/etusivu.jpg" height="500" width="980">
+                                <div class="text">Main page</div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 4</div>
+                                <img src="../Images/NPSi/login_page.jpg" height="500" width="980">
+                                <div class="text">Login page</div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 4</div>
+                                <img src="../Images/NPSi/userSchema.jpg" height="500" width="980">
+                                <div class="text">UserSchema</div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 4</div>
+                                <img src="../Images/NPSi//dateTest.jpg" height="900" width="980">
+                                <div class="text">Date Test</div>
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="next" onclick="plusSlides(1)">❯</a>
+                        </div>
+                        <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                          </div>
+                        <div style="overflow-x: auto;">
+                            <table>
+                                <tr>
+                                    <th></th>
+                                    <th>1 = Strongly disagree</th>
+                                    <th>2 = Disagree</th>
+                                    <th>3 = Can't say</th>
+                                    <th>4 = Almost agree</th>
+                                    <th>5 = Strongly agree</th>
+                                </tr>
+                                <tr>
+                                    <td>I think the project went well for me:</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>X</td>
+                                </tr>
+                            <tr>
+                                <td>I am satisfied with the final result of the project:</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>I learned a lot of new things during the project:</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>I received enough help in problematic situations:</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>I think the entire project team succeeded in its goals well:</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>What overall rating would you give the project:</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                            </tr>
+                            <caption>Project self-evaluation form:</caption>
+                        </div>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+                                <script>
+                                    let slideIndex = 1;
+                                    showSlides(slideIndex);
+                                    
+                                    function plusSlides(n) {
+                                      showSlides(slideIndex += n);
+                                    }
+                                    
+                                    function currentSlide(n) {
+                                      showSlides(slideIndex = n);
+                                    }
+                                    
+                                    function showSlides(n) {
+                                      let i;
+                                      let slides = document.getElementsByClassName("mySlides");
+                                      let dots = document.getElementsByClassName("dot");
+                                      if (n > slides.length) {slideIndex = 1}    
+                                      if (n < 1) {slideIndex = slides.length}
+                                      for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none";  
+                                      }
+                                      for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                      }
+                                      slides[slideIndex-1].style.display = "block";  
+                                      dots[slideIndex-1].className += " active";
+                                    }
+                                    </script>
+        </div>
+    </body>
+</html>

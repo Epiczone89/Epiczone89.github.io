@@ -1,25 +1,132 @@
-﻿
-<div id="sidetoggle">
-  <div>
-    <div class="sidefilter">
-      <form class="toc-filter">
-        <span class="glyphicon glyphicon-filter filter-icon"></span>
-        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
-        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
-      </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rinneranta Jesse</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio page of Jesse Rinneranta">
+  <link rel="stylesheet" href="./Styles/Base_Page.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <li><a href="index.html" class="btn">Main Page</a></li>
+            <li><a href="Projects/Volunteering.html" class="btn">Volunteering</a></li>
+            <li><p><b>Projects:</b></p></li>
+            <li><a href="Projects/FGJ24.html"class="btn">FGJ24</a></li>
+            <li><a href="Projects/NPSi_Learning.html" class="btn">NPSI Learning</a></li>
+            <li><a href="Projects/FGJ23.html" class="btn">FGJ23</a></li>
+            <li><a href="Projects/Summer2022.html" class="btn">XGS 22</a></li>
+            <li><a href="Projects/PrideJam.html" class="btn">PrideJam22</a></li>
+            <li><a href="Projects/JamJam.html" class="btn">Jam Jam22</a></li>
+            <li><a href="Projects/XGJ2021.html" class="btn">XGJ 21</a></li>
+        </div>
+        <div class="wrapper">
+            <div class="sidenavbutton">
+                <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="info">
+                <div class="intro-text">
+                    <div class="image">
+                        <img src="Images/Jesse.jpg">
+                    </div>
+                    <p>Jesse Rinneranta</p>
+                    <p>Game Programming Student</p>
+                    <div class="contact-info">
+                        <p>Email: dev.jesserin@gmail.com</p>
+                        <p><a href="https://www.linkedin.com/in/jesse-rinneranta/" target="_blank">LinkedIN</a></p>
+                        <p><a href="https://epiczone89.itch.io" target="_blankk">Itch.io</a></p>
+                    </div>
+                </div>
+                        <div class="info-text">
+                            <h3>About me</h3>
+                            <p>
+                                I am 25 years old living in Kotka, Finland. 
+                                I am a 4th year Game programming Engineer student in Xamk. 
+                                I am interested in team management, UI/UX and QA.
+                            </p>
+                            <h3>Trust Positions</h3>
+                            <p>
+                                <b>IGDA Finland Kymenlaakso HUB:</b> Volunteer since 2021
+                            </p>
+                            <p>
+                                <b>Kotka's Engineering Students KoIO ry:</b> board member 2021, Chairperson 2022 and Treasure 2023-2024.
+                            </p>
+                            <p>
+                                <b>Student Union Kaakko:</b> Rep.co member 2022 and Board member 2023
+                            </p>
+                            <h3>Work Experience</h3>
+                            <h4>Student Team Lead | Employer | Practical training | 2024: Ongoing</h4>
+                            <p>
+                                I am one of the student team leads on a unnanounced project. 
+                                We have a team of 12 students working on this project and 2 student team leads.
+                            </p>
+                            <h4>Web developer | NPS Inspection Oy | Practical training | 2023: 4 months</h4>
+                            <p>
+                                I worked as a Fullstack-developer. 
+                                I made a company’s internal orientation and exam software. 
+                                Software is used for a new recruiters orientation and annual training of the employers. 
+                                I did finish the software during the practical training.
+                            </p>
+                            <h4>Producer | Xamk Game Studios | Practical Training | 2022: 4 months</h4>
+                            <p>
+                                I worked as a Producer for team a of four. 
+                                My job description included pitching the game, scheduling, prioritizing the necessary assets and contacting project management. 
+                                I also attended weekly meetings and weekly occurred producers meeting. 
+                                The biggest accomplishment was that the game was finished during the summer.
+                            </p>
+                            <h3>Education</h3>
+                            <h4>Bachelor of Engineering - Game Programming | 2020-2024</h4>
+                            <p>
+                                I am studying at South-Eastern Finland University of Applied Sciences Game Programming Engineering Education Line. 
+                                I have 172 credits and my estimated graduation is 06/2024
+                            </p>
+                            <h4>Further vocational qualification in security | 2018-2019</h4>
+                            <p>
+                                I studied the following areas of the security: 
+                                security guard, rescue operations, technical security systems, situation management, personal protection and supervisory work in security.
+                            </p>
+                            <h4>ICT-undergraduate degree | 2014-2017</h4>
+                            <p>
+                                I studied ICT for 3 years at RASEKO at a vocational school and I graduated from there in the summer of 2017.
+                            </p>
+                            <h3>Skills</h3>
+                            <p>
+                                <b>Soft skills:</b> Project management, leadership, problem solving and communication skills.
+                            </p>
+                            <p>
+                                <b>Software:</b> Unity, Visual studio, Visual Studio Code, GitHub, GitHug Desktop, Google Play Console, Trello and Office 365.
+                            </p>
+                            <p>
+                                <b>Coding Languages:</b> C#, HTML and CSS
+                            </p>
+                            <p>
+                                <b>Languages:</b> Finnish and English
+                            </p>
+                            <h3>Additional information:</h3>
+                            <p>
+                                <b>Additional education:</b> HSE-supervisor A1 by Oy Bonum-Safety AB
+                            </p>
+                            <p>
+                                <b>Union of Professional Engineers in Finland's courses:</b> 
+                                Meeting technology and organizational activities course, 
+                                Chairperson training, 
+                                treasurer training, 
+                                negotiating a contract and marketing of services.
+                            </p>
+                        </div>
+                </div>
+        </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
     </div>
-    <div class="sidetoc">
-      <div class="toc" id="toc">
-          
-          <ul class="nav level1">
-                <li>
-                    <a href="manual/coniunctis.html" name="manual/toc.html" title="Manual">Manual</a>
-                </li>
-                <li>
-                    <a href="api/Global.html" name="api/toc.html" title="Scripting API">Scripting API</a>
-                </li>
-          </ul>
-      </div>
-    </div>
-  </div>
-</div>
+</body>
+</html>
